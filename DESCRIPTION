@@ -2,7 +2,7 @@ Encoding: UTF-8
 Package: plumber
 Type: Package
 Title: An API Generator for R
-Version: 0.4.7.9000
+Version: 0.4.7.9100
 Roxygen: list(markdown = TRUE)
 Authors@R: c(
   person(family = "RStudio", role = c("cph", "fnd")),
@@ -40,11 +40,6 @@ Suggests:
     visNetwork,
     analogsea (>= 0.7.0),
     later
-Remotes:
-    rstudio/promises,
-    rstudio/swagger,
-    rstudio/httpuv,
-    sckott/analogsea
 Collate:
     'async.R'
     'content-types.R'
